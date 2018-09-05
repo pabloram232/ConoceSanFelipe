@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/juego_activity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="#BCC0BE"
+    android:shrinkColumns="*"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:paddingBottom="3dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imgPieza1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:paddingRight="5dp"
+            android:src="@drawable/pieza1"/>
+        <ImageView
+            android:id="@+id/imgPieza2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:paddingRight="5dp"
+            android:src="@drawable/pieza2"/>
+        <ImageView
+            android:id="@+id/imgPieza3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/pieza3"/>
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imgPieza4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:paddingRight="5dp"
+            android:src="@drawable/pieza4"/>
+
+        <ImageView
+            android:id="@+id/imgPieza5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:paddingRight="5dp"
+            android:src="@drawable/pieza5"/>
+        <ImageView
+            android:id="@+id/imgPieza6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/pieza6"/>
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/imgPieza7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:paddingRight="5dp"
+            android:src="@drawable/pieza7"/>
+
+        <ImageView
+            android:id="@+id/imgPieza8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:paddingRight="5dp"
+            android:src="@drawable/pieza8"/>
+
+        <ImageView
+            android:id="@+id/imgPieza9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/pieza9"/>
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="3dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imgPieza10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:paddingRight="5dp"
+            android:src="@drawable/pieza10"/>
+
+        <ImageView
+            android:id="@+id/imgPieza11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:paddingRight="5dp"
+            android:src="@drawable/pieza11"/>
+        <ImageView
+            android:id="@+id/imgPieza12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/pieza12"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="@string/time"
+            />
+
+        <Chronometer
+            android:id="@+id/contador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:elegantTextHeight="true"
+            />
+    </TableRow>
+
+</TableLayout>

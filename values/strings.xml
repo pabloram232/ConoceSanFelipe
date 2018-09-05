@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ConoceSanFelipe</string>
+    <string name="gallery">Galeria</string>
+    <string name="games">Juegos</string>
+    <string name="hotel">Hoteles</string>
+    <string name="bares">Bares</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="history">Historia</string>
+    <string name="puzzleOne">Rompecabezas Uno</string>
+    <string name="puzzleTwo">Rompecabezas Dos</string>
+    <string name="cards">Memorama</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="time">Tiempo</string>
+    <string name="developed_by">Desarrolada por:</string>
+    <string name="developer">Juan Pablo Ramírez Ibarra</string>
+    <string name="version">Versión 1.0</string>
+    <string name="abaout">Acerca de</string>
+
+
+    <string name="history_text">
+        San Felipe, conocido localmente también como San Felipe Torres Mochas, es una población del estado mexicano de Guanajuato.
+        Se encuentra localizado en el su extremo noroeste.
+        San Felipe se fundó el 21 de enero de 1562 Se reconoce como primeros pobladores de la región
+        que ahora forma San Felipe a varios grupos de chichimecas nómadas; conformados por zacatecos,
+        pames (llamados también xioi), guamares, y guachichiles. La gran mayoría de estos grupos se
+        mostraron hostiles ante la colonización española. San Felipe fue establecido como presidio en
+        1554, y fundada después por Francisco de Velasco el 21 de enero de 1562 por orden del virrey
+        Don Luis de Velasco, dándosele el nombre de Villa de San Felipe en honor al rey Felipe II de España.
+        El propósito de la fundación de la villa fue el de dar resguardo a la Ruta de la Plata mexicana.
+        Después de conquista el área dónde ahora se encuentra la cabecera municipal, se comenzó la
+        construcción de la villa siguiendo la tradicional traza urbana española.
+        En 1563 el rey Felipe II concedió el título de Villa de la Comunidad a
+        San Felipe, quedando la misma a cargo de Francisco de Velasco.
+
+    </string>
+</resources>

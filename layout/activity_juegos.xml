@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    android:transitionName="@string/games">
+
+
+    <Button
+        android:id="@+id/btn_rompecabezas_uno"
+        android:layout_width="257dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:layout_weight="1"
+        android:alpha="0.75"
+        android:background="@drawable/rounded_button"
+        android:drawableLeft="@drawable/rompecabezas1"
+        android:text="@string/puzzleOne"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_rompecabezas_dos"
+        android:layout_width="257dp"
+        android:layout_height="62dp"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+        android:alpha="0.75"
+        android:background="@drawable/rounded_button"
+        android:drawableLeft="@drawable/rompecabezas2"
+        android:text="@string/puzzleTwo"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_memorama"
+        android:layout_width="257dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="111dp"
+        android:layout_weight="1"
+        android:alpha="0.75"
+        android:background="@drawable/rounded_button"
+        android:drawableLeft="@drawable/memorama"
+        android:text="@string/cards"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
