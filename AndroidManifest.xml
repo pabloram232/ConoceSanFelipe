@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.utng.pabloram.sanfelipe">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:background="#47ff47">
+        <activity android:name=".SplashActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+        android:name=".MenuActivity"
+        android:screenOrientation="portrait" />
+        <activity
+            android:name=".HistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AbautActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JuegosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PuzzleOneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MemoramaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PuzzleTwoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GalleryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BaresActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BaresDescriptionActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".HotelesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HotelsDescriptionActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".RestaurantActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RestaurantDescriptionActivity"
+            android:screenOrientation="portrait" />
+
+
+
+    </application>
+
+</manifest>
