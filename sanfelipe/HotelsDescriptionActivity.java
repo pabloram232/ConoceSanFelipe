@@ -1,4 +1,4 @@
-package com.example.pabloram.sanfelipe;
+package com.utng.pabloram.sanfelipe;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import com.utng.pabloram.sanfelipe.R;
 
 public class HotelsDescriptionActivity extends AppCompatActivity {
     private ImageButton re;
@@ -41,7 +42,7 @@ public class HotelsDescriptionActivity extends AppCompatActivity {
         Log.d("imagen ", "imgid " + desc);
 
 
-        if (r2 == 2131099866) {
+        if (r2 == 2131099849) {
             ///ABRE FACEBOOK hotel roma
             ImageButton btnFace = (ImageButton) findViewById(R.id.btn_face);
             btnFace.setOnClickListener(new View.OnClickListener() {
@@ -61,7 +62,7 @@ public class HotelsDescriptionActivity extends AppCompatActivity {
             });
         }
 
-        if (r2 == 2131099800) {
+        if (r2 == 2131099791) {
             ///ABRE FACEBOOK hotel la luz
             ImageButton btnFace = (ImageButton) findViewById(R.id.btn_face);
             btnFace.setOnClickListener(new View.OnClickListener() {
@@ -81,7 +82,7 @@ public class HotelsDescriptionActivity extends AppCompatActivity {
             });
         }
 
-        if (r2 == 2131099879) {
+        if (r2 == 2131099861) {
             ///ABRE FACEBOOK vista jardin
             ImageButton btnFace = (ImageButton) findViewById(R.id.btn_face);
             btnFace.setOnClickListener(new View.OnClickListener() {

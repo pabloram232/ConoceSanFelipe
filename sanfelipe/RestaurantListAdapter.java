@@ -1,4 +1,4 @@
-package com.example.pabloram.sanfelipe;
+package com.utng.pabloram.sanfelipe;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import com.utng.pabloram.sanfelipe.R;
 
 public class RestaurantListAdapter extends ArrayAdapter<String> {
     private final Activity context;

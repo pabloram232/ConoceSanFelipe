@@ -1,4 +1,4 @@
-package com.example.pabloram.sanfelipe;
+package com.utng.pabloram.sanfelipe;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.utng.pabloram.sanfelipe.R;
 
 /**
  * Created by Eduardo Barrientos on 09/09/2016.

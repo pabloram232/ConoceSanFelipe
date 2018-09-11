@@ -1,4 +1,4 @@
-package com.example.pabloram.sanfelipe;
+package com.utng.pabloram.sanfelipe;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Chronometer;
 import android.widget.ImageView;
 import android.widget.Toast;
+import com.utng.pabloram.sanfelipe.R;
 
 public class PuzzleOneActivity extends AppCompatActivity implements View.OnClickListener{
 

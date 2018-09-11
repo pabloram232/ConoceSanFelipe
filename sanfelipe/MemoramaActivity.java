@@ -1,4 +1,4 @@
-package com.example.pabloram.sanfelipe;
+package com.utng.pabloram.sanfelipe;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -6,11 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageButton;
 import android.view.View;
 import android.widget.Toast;
+import com.utng.pabloram.sanfelipe.R;
 
 public class MemoramaActivity extends AppCompatActivity implements View.OnClickListener{
 
     ImageButton imbCarta1, imbCarta2, imbCarta3, imbCarta4, imbCarta5, imbCarta6, imbCarta7, imbCarta8;
-    int[] imagenes = {R.mipmap.mescal,R.mipmap.jaral,R.mipmap.indio,R.mipmap.gnobots2};
+    int[] imagenes = {R.mipmap.memorama1,R.mipmap.memorama2,R.mipmap.memorama3,R.mipmap.memorama4};
     int[] juego = new int[8];
     int[] cartas_selecionadas = new int[2];
     int[] imagenes_selecionadas = new int[2];

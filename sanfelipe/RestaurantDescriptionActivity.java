@@ -1,4 +1,4 @@
-package com.example.pabloram.sanfelipe;
+package com.utng.pabloram.sanfelipe;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
-
+import com.utng.pabloram.sanfelipe.R;
 public class RestaurantDescriptionActivity extends AppCompatActivity {
     private ImageButton re;
     private ImageButton me;
@@ -39,7 +39,7 @@ public class RestaurantDescriptionActivity extends AppCompatActivity {
         Log.d("imagen ","imgid "+r1);
         Log.d("imagen ","imgid "+desc);
 
-        if (r2 == 2131099855) {
+        if (r2 == 2131099847) {
             ///ABRE FACEBOOK LA RAMONA
             ImageButton btnFace = (ImageButton) findViewById(R.id.btn_face);
             btnFace.setOnClickListener(new View.OnClickListener() {
@@ -59,7 +59,7 @@ public class RestaurantDescriptionActivity extends AppCompatActivity {
             });
         }
 
-        if (r2 == 2131099878) {
+        if (r2 == 2131099860) {
             ///ABRE FACEBOOK VIEJON
             ImageButton btnFace = (ImageButton) findViewById(R.id.btn_face);
             btnFace.setOnClickListener(new View.OnClickListener() {
@@ -79,7 +79,7 @@ public class RestaurantDescriptionActivity extends AppCompatActivity {
             });
         }
 
-        if (r2 == 2131099743) {
+        if (r2 == 2131099740) {
             ///ABRE FACEBOOK CASONA
             ImageButton btnFace = (ImageButton) findViewById(R.id.btn_face);
             btnFace.setOnClickListener(new View.OnClickListener() {
@@ -99,7 +99,7 @@ public class RestaurantDescriptionActivity extends AppCompatActivity {
             });
         }
 
-        if (r2 == 2131099873) {
+        if (r2 == 2131099855) {
             ///ABRE FACEBOOK STOP
             ImageButton btnFace = (ImageButton) findViewById(R.id.btn_face);
             btnFace.setOnClickListener(new View.OnClickListener() {
@@ -120,7 +120,7 @@ public class RestaurantDescriptionActivity extends AppCompatActivity {
         }
 
 
-        if (r2 == 2131099840) {
+        if (r2 == 2131099831) {
             ///ABRE FACEBOOK PATOS
             ImageButton btnFace = (ImageButton) findViewById(R.id.btn_face);
             btnFace.setOnClickListener(new View.OnClickListener() {
@@ -139,7 +139,7 @@ public class RestaurantDescriptionActivity extends AppCompatActivity {
                 }
             });
         }
-        if (r2 == 2131099877) {
+        if (r2 == 2131099859) {
             ///ABRE FACEBOOK TORTUGA
             ImageButton btnFace = (ImageButton) findViewById(R.id.btn_face);
             btnFace.setOnClickListener(new View.OnClickListener() {
@@ -158,7 +158,7 @@ public class RestaurantDescriptionActivity extends AppCompatActivity {
                 }
             });
         }
-        if (r2 == 2131099765) {
+        if (r2 == 2131099762) {
             ///ABRE FACEBOOK DELFIN
             ImageButton btnFace = (ImageButton) findViewById(R.id.btn_face);
             btnFace.setOnClickListener(new View.OnClickListener() {
@@ -177,7 +177,7 @@ public class RestaurantDescriptionActivity extends AppCompatActivity {
                 }
             });
         }
-        if (r2 == 2131099791) {
+        if (r2 == 2131099782) {
             ///ABRE FACEBOOK HENRYS
             ImageButton btnFace = (ImageButton) findViewById(R.id.btn_face);
             btnFace.setOnClickListener(new View.OnClickListener() {
